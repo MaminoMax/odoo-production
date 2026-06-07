@@ -125,16 +125,17 @@ Internet
 ## 🖥️ Screenshots
 
 ### Odoo Dashboard
-![Odoo Dashboard](screenshots/odoo-dashboard.png)
+![Odoo Dashboard](screenshots/odoo-dashboard.PNG)
 
 ### Grafana Monitoring
-![Grafana](screenshots/grafana.png)
+![Grafana](screenshots/grafana.PNG)
 
 ### Prometheus Targets
-![Prometheus](screenshots/prometheus.png)
+![Prometheus](screenshots/permetheus.PNG)
 
 ### Docker Containers
-![Docker](screenshots/docker-ps.png)
+![Docker](screenshots/docker-ps.PNG)
+
 ---
 
 ## 👤 Author
