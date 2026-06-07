@@ -40,7 +40,7 @@ This project is a complete, professional **Odoo 17 ERP** production setup built 
 | 5 | Docker Compose + Launch | Bringing up all services |
 | 6 | iptables Firewall | Port-level network protection |
 | 7 | Nginx | Reverse proxy configuration |
-| 8 | ⚠️ SSL is self-signed (Let's Encrypt will be added with domain)|
+| 8 | SSL Self-Signed | ⚠️ SSL is self-signed (Let's Encrypt will be added with domain)|
 | 9 | Nginx + HTTPS | Full HTTPS setup and HTTP redirect |
 | 10 | Backup System + Cron | Automated daily backups |
 | 11 | Fail2ban | Brute force attack protection |
@@ -124,7 +124,17 @@ Internet
 
 ## 🖥️ Screenshots
 
-> *(Coming soon)*
+### Odoo Dashboard
+![Odoo Dashboard](odoo-dashboard.png)
+
+### Grafana Monitoring
+![Grafana](grafana.png)
+
+### Prometheus Targets
+![Prometheus](prometheus.png)
+
+### Docker Containers
+![Docker](docker-ps.png)
 
 ---
 
