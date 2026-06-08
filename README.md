@@ -131,7 +131,7 @@ Internet
 ![Grafana](screenshots/grafana.PNG)
 
 ### Prometheus Targets
-![Prometheus](screenshots/permetheus.PNG)
+![Permetheus](screenshots/permetheus.PNG)
 
 ### Docker Containers
 ![Docker](screenshots/docker-ps.PNG)
@@ -140,10 +140,10 @@ Internet
 
 ## 👤 Author
 
-**Your Name**
+Gheddab Mohamed Amine 
 - 📍 Algeria 🇩🇿
-- 💼 LinkedIn: [linkedin.com/in/mohamed-amine-gheddab-0b9478252](#)
-- 🐙 GitHub: [github.com/MaminoMax](#)
+- 💼 LinkedIn: [linkedin.com/in/mohamed-amine-gheddab-0b9478252]
+- 🐙 GitHub: [github.com/MaminoMax]
 
 ---
 
