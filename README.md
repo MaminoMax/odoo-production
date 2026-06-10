@@ -51,19 +51,23 @@ In this project, I personally:
 Internet
             │
             ▼
-┌──────────────────────┐
-│   Nginx (HTTPS 443)  │
-└──────────────────────┘
+[ iptables Firewall ]
+[ Ports: 22, 80, 443 only ]
             │
             ▼
-┌──────────────────────┐
-│     Odoo 17 App      │
-└──────────────────────┘
+[ Fail2ban (Brute-force Protection) ]
             │
             ▼
-┌──────────────────────┐
-│  PostgreSQL Database  │
-└──────────────────────┘
+[ Nginx :443 HTTPS + SSL ]
+            │
+            ▼
+[ Odoo 17 :8069 ]
+            │
+            ▼
+[ PostgreSQL 15 :5432 ]
+            │
+            ▼
+[ Docker Volumes (Persistent Data) ]
 ```
 
 **Monitoring Stack:**
@@ -72,6 +76,15 @@ Internet
 Node Exporter  ─┐
 cAdvisor        ─┼──► Prometheus ───► Grafana Dashboard
 Odoo Metrics    ─┘
+```
+
+**Backup System:**
+
+```
+[ Cron Job 02:00 AM ]
+    ├── PostgreSQL dump
+    ├── Odoo Filestore
+    └── /opt/odoo/backup/
 ```
 
 ## 🛠️ Tech Stack
@@ -141,14 +154,14 @@ A fully functional production-like ERP infrastructure demonstrating:
 - Cybersecurity fundamentals
 - Infrastructure automation
 - Monitoring and observability
-  
-## 👤 Author
+
+## 🧑‍💻 Author
 
 **Gheddab Mohamed Amine**
 
 - 📍 Algeria 🇩🇿
-- 💼 LinkedIn: [linkedin.com/in/mohamed-amine-gheddab-0b9478252](https://linkedin.com/in/mohamed-amine-gheddab-0b9478252)
 - 🐙 GitHub: [github.com/MaminoMax](https://github.com/MaminoMax)
+- 💼 LinkedIn: [linkedin.com/in/mohamed-amine-gheddab-0b9478252](https://linkedin.com/in/mohamed-amine-gheddab-0b9478252)
 
 ## ⭐ Support
 If you found this project useful or interesting, please consider giving it a ⭐ on GitHub.
