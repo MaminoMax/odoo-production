@@ -141,14 +141,14 @@ A fully functional production-like ERP infrastructure demonstrating:
 - Cybersecurity fundamentals
 - Infrastructure automation
 - Monitoring and observability
-
-## 🧑‍💻 Author
+  
+## 👤 Author
 
 **Gheddab Mohamed Amine**
 
 - 📍 Algeria 🇩🇿
-- 🐙 GitHub: [github.com/MaminoMax](https://github.com/MaminoMax)
 - 💼 LinkedIn: [linkedin.com/in/mohamed-amine-gheddab-0b9478252](https://linkedin.com/in/mohamed-amine-gheddab-0b9478252)
+- 🐙 GitHub: [github.com/MaminoMax](https://github.com/MaminoMax)
 
 ## ⭐ Support
 If you found this project useful or interesting, please consider giving it a ⭐ on GitHub.
